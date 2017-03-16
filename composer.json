@@ -6,12 +6,12 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4",
-        "ext-swoole": ">=1.8.9",
+        "ext-swoole": ">=1.8.9"
     },
     "authors": [
         {
             "name": "wangzhenyi2011",
-            "email": "wangzhenyi2011@163.com",
+            "email": "wangzhenyi2011@163.com"
         }
     ],
     "autoload": {
