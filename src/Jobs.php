@@ -53,7 +53,7 @@ class Jobs
                                 $Arguments = [
                                     'x-dead-letter-exchange'=>'ordertransfer',
                                     'x-dead-letter-routing-key'=>'ordertransfer',
-                                    'x-message-ttl'=>180000
+                                    'x-message-ttl'=>900000
                                   ];
                                 $this->queue->push('WaitOrder', $data, 'waitorder', $Arguments);
                                 $this->queue->getqueue()->ack($result['DeliveryTag']);
